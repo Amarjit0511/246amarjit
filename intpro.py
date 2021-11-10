@@ -16,11 +16,11 @@ root = Tk()
 root.title("Hospital Appointment")
 
 def emergency_click():
-    myLabel=Label(root, fg="red",text=("You have requested for Emergency Services"))
+    myLabel=Label(root, fg="red",text=("Emergency Services Selected"))
     myLabel.grid(columnspan=3, padx=10, pady=10 , )
     
                    
-    myLabel1 = Label(root, text="Your Body Temperature:")
+    myLabel1 = Label(root, text="Current Temperature:")
     myLabel1.grid() 
                    
     enter_temp = Entry(root, width= 35 , borderwidth=5)
